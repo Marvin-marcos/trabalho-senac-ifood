@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: iFood RC Textos, helvetica, sans-serif;
+    overflow-x: hidden;
+    height: 100%;
+    scroll-behavior: auto;
+}
+
+.principal {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #ffffff;
+    position: fixed;
+}
+
+nav.menu {
+    font-family: "iFood RC Textos", helvetica, sans-serif;
+    font-size: 16px;
+    margin: 44px;
+    }
+
+a {
+    justify-content: center;
+    text-decoration: none;
+    padding: 11px 16px;
+    margin: 0px 3px;
+    background-color: #ffffff;
+    color: #3e3e3e;
+}
+
+button {
+    font-family: "iFood RC Textos", helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #ea1d2c;
+    color: #ffffff;
+    padding: 16px 30px;
+    border: none;
+    border-radius: 6px;
+}
+
+.login {
+    margin-left: 200px;
+    background-color: #ffffff;
+    color: #ea1d2c;
+}
+
+.logo {
+    padding: 20px;
+    margin: 20px;
+    margin-left: 10px;
+}
