@@ -13,9 +13,9 @@ body {
 
 .principal {
     display: flex;
-    flex-flow: row wrap;
-    background-color: #ffffff;
-    position: fixed;
+    background-color: #edebeb;
+    margin: 0 auto;
+    justify-content: center;
 }
 
 nav.menu {
@@ -29,7 +29,6 @@ a {
     text-decoration: none;
     padding: 11px 16px;
     margin: 0px 3px;
-    background-color: #ffffff;
     color: #3e3e3e;
 }
 
@@ -37,17 +36,23 @@ button {
     font-family: "iFood RC Textos", helvetica, sans-serif;
     font-size: 16px;
     text-decoration: none;
-    background-color: #ea1d2c;
-    color: #ffffff;
     padding: 16px 30px;
     border: none;
     border-radius: 6px;
 }
 
+.entrar {
+    margin-left: 3px;
+    margin-right: 5px;
+    background-color: #ea1d2c;
+    color: #edebeb;
+}
+
+
 .login {
-    margin-left: 200px;
-    background-color: #ffffff;
+    margin-left: 150px;
     color: #ea1d2c;
+    background-color: #edebeb;
 }
 
 .logo {
@@ -55,3 +60,15 @@ button {
     margin: 20px;
     margin-left: 10px;
 }
+
+main {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 600px 100px 100px;
+}
+
+.fundo{
+    grid-column: 1 / -1;
+    background-image: url(./Design\ sem\ nome\ \(1\).png);
+    width: 100%;
+    }
