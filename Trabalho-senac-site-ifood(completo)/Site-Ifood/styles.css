@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: iFood RC Textos, helvetica, sans-serif;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.principal {
+    display: flex;
+    background-color: #edebeb;
+    margin: 0 auto;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+}
+
+nav.menu {
+    font-family: "iFood RC Textos", helvetica, sans-serif;
+    font-size: 16px;
+    margin: 44px;
+    }
+
+a {
+    justify-content: center;
+    text-decoration: none;
+    padding: 11px 16px;
+    margin: 0px 3px;
+    color: #3e3e3e;
+}
+
+button {
+    font-family: "iFood RC Textos", helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 16px 30px;
+    border: none;
+    border-radius: 6px;
+}
+
+.entrar {
+    margin-left: 3px;
+    margin-right: 5px;
+    background-color: #ea1d2c;
+    color: #edebeb;
+}
+
+
+.login {
+    margin-left: 150px;
+    color: #ea1d2c;
+    background-color: #edebeb;
+}
+
+.logo {
+    padding: 20px;
+    margin: 20px;
+    margin-left: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 600px 100px 100px;
+}
+
+.fundo{
+    grid-column: 1 / -1;
+    background-image: url(./Design\ sem\ nome\ \(1\).png);
+    width: 100%;
+    }
+
+    h1 {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        font-size: 58px;
+        font-weight: 200;
+        margin-top: 150px;
+        color: #4d4d4d;
+    }
+
+.texto-fundo {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 450;
+    margin-top: 2px;
+    color: #575757;
+}
+
+.search-bar {
+    grid-column: 4 / 9;
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+    margin-left: 30px;
+}
+
+.bg-search {
+    width: 360px;
+    height: 48px;
+    background-color: #e6e5e5;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.search-button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    padding-left: 17.35px;
+    cursor: pointer;
+}
+
+.search-input {
+    background-color: #e6e5e5;
+    border: none;
+    width: 300px;
+    color: #858585;
+}
+
+.button-header {
+    grid-column: 10 /13;
+    display: flex;
+}
+
+.search-input::placeholder {
+    color: #4d4d4d;
+}
+
+.ver-marcados {
+    background-color: #ea1d2c;
+    color: #edebeb;
+    width: 228px;
+    height: 48px;
+    margin-left: 30px;
+    margin-top: 35px;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.pesquisa-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style:none;
+    text-align: center;
+}
+
+.texto-box {
+    grid-column: 5 / 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.texto-box p {
+    margin: 15px;
+    text-align: center;
+    color: #4d4d4d;
+    font-size: 16px;
+}
+
+.texto-box2 {
+    grid-column: 5 / 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.texto-box2 p {
+    margin: 10px;
+    text-align: center;
+    color: #4d4d4d;
+    font-size: 16px;
+}
+
+.ver-opçoes {
+    background-color: #ea1d2c;
+    width: 404px;
+    height: 214px;
+    color:white;
+    display: flex;
+    grid-column: 5 / 9;
+    border-radius: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 20px;
+}
+
+
+.mercado {
+    background-color: #b6d048;
+    width: 404px;
+    height: 214px;
+    color:white;
+    display: flex;
+    grid-column: 5 / 9;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 5 / 9;
+}
+
+.compras {
+    width: 140px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-compras {
+    background-color: #f6d553;
+    margin: 0px 50px 0px 0px;  
+    padding: 2px 30px 0px 30px;
+    border-radius: 15px;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.img-farmacia {
+    background-color:#f9879c;
+    margin: 0px 50px 0px 0px;  
+    padding: 2px 30px 0px 30px;
+    border-radius: 15px;
+}
+
+.img-pet-shop {
+    background-color:#8c60c5;
+    margin: 0px 50px 0px 0px;  
+    padding: 2px 30px 0px 30px;
+    border-radius: 15px;
+}
+
+.texto-compras {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 300px;
+}
+
+.texto-compras p {
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+hr {
+    margin-left: 270px;
+    margin-right: 270px;
+}
+
+h4 {
+    margin-left: 270px;
+    font-size: 25px;
+    margin-top: 30px;
+    font-weight: 200;
+}
+
+.cadastro {
+    margin-left: 300px;
+}
+
+
+.propaganda h2 {
+    margin-left: 200px;
+    font-size: 28px;
+    width: 250px;
+}
+
+.propaganda-texto p {
+    margin-left: 200px;
+    font-size: 18px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.propaganda-butao button {
+    margin-left: 200px;
+    margin-top: 20px;
+    background-color: #ea1d2c;
+    color: #edebeb;
+}
+
+.fundo-propaganda {
+    background-image: url(../fotos-propaganda.png);
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.coluna {
+    display: flex;
+}
+
+.rodapé {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.rodapé p  {
+    margin: 20px;
+}
+
+.rodapé2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.rodapé2 p  {
+    margin: 20px;
+}
+
+.social {
+    margin-top: 45px;
+
+}
+
+.p-final {
+    width: 500px;
+    margin-left: 20px;
+}
+
+.final {
+    display: flex;
+}
+
